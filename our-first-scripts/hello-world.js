@@ -2,7 +2,7 @@
 
 
 
-console.log ('review hola desde Node.js')
+console.log ('Review hola desde Node.js')
 
 
 //DOM
@@ -26,5 +26,14 @@ function suma (a, b) {
 const resta = (a,b) => {
     console.log('resta: ', a -b )
     return a - b
+}
+
+suma(10,20)
+resta(10,20)
+
+if(false) {
+    console.log('This is true')
+} else {
+    console.log('This is false')
 }
 //insert test
